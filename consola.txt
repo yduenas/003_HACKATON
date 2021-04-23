@@ -1,0 +1,15 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+pwd
+mkdir 03_HACKATON
+cd 03_HACKATON
+mkdir images styles scripts
+touch styles/main.css scripts/main.js
+pwd
+touch readme.md
+touch consola.txt
+touch tags-form.html
+touch index.html
+git init
+git add .
+git commit -m 'First commit'
